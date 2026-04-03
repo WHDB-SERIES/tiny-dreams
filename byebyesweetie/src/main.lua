@@ -111,7 +111,6 @@ local function clearAccessories(figure)
 			object:Destroy()
 		elseif (object:IsA('Decal')) then
 			if (object.ColorMapContent.SourceType == Enum.ContentSourceType.None) then
-				print('color map gone')
 				object:Destroy()
 			end
 		end
