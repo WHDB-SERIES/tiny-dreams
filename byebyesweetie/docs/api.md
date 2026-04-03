@@ -17,10 +17,10 @@ disble makeup?
 ensure makeup is gone? this may lead to unintended behaviour, as it removes basewraps and empty decals
 
 ### `applyPlayers: boolean`
-self-explanatory. apply this make-up remover to players?
+self-explanatory. apply this make-up remover to players automatically?
 
 ### `applyOtherHumanoids: boolean`
-apply this make-up remover to non-players?
+apply this make-up remover to non-players automatically?
 
 #### `applyOtherHumanoidsDepth: number`
 apply to other humanoids starting from workspace and going until this depth. set to `-1` if you want a behaviour equivalent to getdescendants (if it only got humanoids)
